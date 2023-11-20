@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net;
+using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +27,22 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             Disconnect_UI();
+            StringBuilder sb = new StringBuilder();
+            foreach (NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces())
+            {
+                if ( ni.NetworkInterfaceType == NetworkInterfaceType.Ethernet)
+                {
+                    Console.WriteLine(ni.Name);
+                    foreach (UnicastIPAddressInformation ip in ni.GetIPProperties().UnicastAddresses)
+                    {
+                        if (ip.Address.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)
+                        {
+                            sb.Append("new ip = " + ip.Address.ToString() + " description = " + ni.Description + " name =  " + ni.Name + Environment.NewLine);
+                        }
+                    }
+                }
+            }
+            MessageBox.Show(sb.ToString());
         }
 
         private void Connect_UI() 
@@ -161,7 +178,12 @@ namespace WindowsFormsApp1
                     _sock.ReceiveTimeout = 5000;
                     byte[] buf = new byte[1024];
                     int bytesCountReceive = _sock.Receive(buf);
-                    MessageBox.Show(bytesCountReceive.ToString());
+                    Parser.Parser p = new Parser.Parser();
+                    string strFam, strName, strSurname;
+                    p.parse(buf, out strFam, out strName, out strSurname);
+                    lbl_fam.Text = strFam;
+                    lbl_name.Text = strName;
+                    lbl_surname.Text = strSurname;
                 }
                 catch(SocketException exc)
                 {
@@ -174,7 +196,7 @@ namespace WindowsFormsApp1
                 Disconnect();
             }
         }
-
+        /* Working with Encoding
         private void button1_Click(object sender, EventArgs e)
         {
             byte[] message = new byte[1024];
@@ -191,5 +213,6 @@ namespace WindowsFormsApp1
             Array.Copy(surnameBuf, 0, message, 3 + famBuf.Length + nameBuf.Length, surnameBuf.Length);
 
         }
+        */
     }
 }
