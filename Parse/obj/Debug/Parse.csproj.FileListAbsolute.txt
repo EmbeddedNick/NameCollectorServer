@@ -1,0 +1,6 @@
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse\bin\Debug\Parse.dll
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse\bin\Debug\Parse.pdb
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse\obj\Debug\Parse.csproj.AssemblyReference.cache
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse\obj\Debug\Parse.csproj.CoreCompileInputs.cache
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse\obj\Debug\Parse.dll
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse\obj\Debug\Parse.pdb

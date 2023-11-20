@@ -1,0 +1,5 @@
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse_Tests\obj\Debug\net6.0\Parse_Tests.csproj.AssemblyReference.cache
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse_Tests\obj\Debug\net6.0\Parse_Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse_Tests\obj\Debug\net6.0\Parse_Tests.AssemblyInfoInputs.cache
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse_Tests\obj\Debug\net6.0\Parse_Tests.AssemblyInfo.cs
+C:\Users\prep\Documents\ClientTCPUserInfo\WindowsFormsApp1\Parse_Tests\obj\Debug\net6.0\Parse_Tests.csproj.CoreCompileInputs.cache
