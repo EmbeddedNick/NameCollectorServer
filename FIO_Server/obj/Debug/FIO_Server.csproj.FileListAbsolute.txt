@@ -1,0 +1,15 @@
+C:\Users\мк\source\repos\FIO_Server\FIO_Server\bin\Debug\FIO_Server.exe.config
+C:\Users\мк\source\repos\FIO_Server\FIO_Server\bin\Debug\FIO_Server.exe
+C:\Users\мк\source\repos\FIO_Server\FIO_Server\bin\Debug\FIO_Server.pdb
+C:\Users\мк\source\repos\FIO_Server\FIO_Server\obj\Debug\FIO_Server.csproj.AssemblyReference.cache
+C:\Users\мк\source\repos\FIO_Server\FIO_Server\obj\Debug\FIO_Server.csproj.CoreCompileInputs.cache
+C:\Users\мк\source\repos\FIO_Server\FIO_Server\obj\Debug\FIO_Server.exe
+C:\Users\мк\source\repos\FIO_Server\FIO_Server\obj\Debug\FIO_Server.pdb
+C:\Users\мк\Downloads\FIO_Server\FIO_Server\bin\Debug\FIO_Server.exe.config
+C:\Users\мк\Downloads\FIO_Server\FIO_Server\bin\Debug\FIO_Server.exe
+C:\Users\мк\Downloads\FIO_Server\FIO_Server\bin\Debug\FIO_Server.pdb
+C:\Users\мк\Downloads\FIO_Server\FIO_Server\obj\Debug\FIO_Server.csproj.AssemblyReference.cache
+C:\Users\мк\Downloads\FIO_Server\FIO_Server\obj\Debug\FIO_Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\мк\Downloads\FIO_Server\FIO_Server\obj\Debug\FIO_Server.csproj.CoreCompileInputs.cache
+C:\Users\мк\Downloads\FIO_Server\FIO_Server\obj\Debug\FIO_Server.exe
+C:\Users\мк\Downloads\FIO_Server\FIO_Server\obj\Debug\FIO_Server.pdb
